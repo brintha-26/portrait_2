@@ -41,18 +41,22 @@ GALLERY = [
 ]
 
 FRAME_SIZES = [
-    {"size": "A4  (8×11 in)",  "price": 499},
-    {"size": "A3  (12×16 in)", "price": 799},
-    {"size": "A2  (16×20 in)", "price": 1099},
-    {"size": "A1  (20×24 in)", "price": 1499},
+    {"size for single face": "A4  (8×11 in)",  "price": 599},
+    {"size for single face": "A3  (12×16 in)", "price": 999},
+    {"size for single face": "A2  (16×20 in)", "price": 1399},
+    {"size for single face": "A1  (20×24 in)", "price": 1599},
+    {"size for double face": "A4  (8×11 in)",  "price": 1299},
+    {"size for double face": "A3  (12×16 in)", "price": 999},
+    {"size for double face": "A2  (16×20 in)", "price": 1099},
+    {"size for double face": "A1  (20×24 in)", "price": 1499},
 ]
 
 PRICING = [
-    {"type": "Solo Portrait",   "pencil": 499,  "charcoal": 699,  "color": 999},
-    {"type": "Couple Portrait", "pencil": 799,  "charcoal": 999,  "color": 1299},
-    {"type": "Family Portrait", "pencil": 1099, "charcoal": 1299, "color": 1699},
-    {"type": "Baby Sketch",     "pencil": 599,  "charcoal": 799,  "color": 1099},
-    {"type": "Pet Portrait",    "pencil": 599,  "charcoal": 799,  "color": 1099},
+    {"type": "Solo Portrait",   "pencil": 499 },
+    {"type": "Couple Portrait", "pencil": 799 },
+    {"type": "Family Portrait", "pencil": 1099 },
+    {"type": "Baby Sketch",     "pencil": 599 },
+    {"type": "Pet Portrait"    "pencil": 599 },
 ]
 
 # ── Routes ────────────────────────────────────────────────
